@@ -7,7 +7,7 @@ Responsive web design projects done for freecodecamp.org
 
 02.Survey Form
 
-<img src="https://github.com/gsmperera/Responsive-web-design/blob/master/source/survey-form.png?raw=true" height=350px>
+<img src="https://github.com/gsmperera/Responsive-web-design/blob/master/source/survey-form.png?raw=true" width=350px>
 
 03.Product Landing Page
 
@@ -16,3 +16,7 @@ Responsive web design projects done for freecodecamp.org
 04.Technical Documentation Page
 
 <img src="https://github.com/gsmperera/Responsive-web-design/blob/master/source/documentation.png?raw=true" width=350px> <img src="https://github.com/gsmperera/Responsive-web-design/blob/master/source/documentation-low-width.png?raw=true" height=250px>
+
+05.Portfolio page
+
+<img src="https://github.com/gsmperera/Responsive-web-design/blob/master/source/portfolio-page.png?raw=true" width=350px> <img src="https://github.com/gsmperera/Responsive-web-design/blob/master/source/portfolio-low-width.png?raw=true" height=250px>
