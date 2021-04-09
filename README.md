@@ -19,4 +19,4 @@ Responsive web design projects done for freecodecamp.org
 
 05.Portfolio page
 
-<img src="https://github.com/gsmperera/Responsive-web-design/blob/master/source/portfolio-page.png?raw=true" width=350px> <img src="https://github.com/gsmperera/Responsive-web-design/blob/master/source/portfolio-low-width.png?raw=true" height=250px>
+<img src="https://github.com/gsmperera/Responsive-web-design/blob/master/source/portfolio-page.png?raw=true" width=350px> <img src="https://github.com/gsmperera/Responsive-web-design/blob/master/source/portfolio-page-low-width.png?raw=true" height=250px>
