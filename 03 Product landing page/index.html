@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Product Landing Page</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">        
+        <link rel="stylesheet" href="CSS/styles.css">
+    </head>
+
+    <body>
+        <header id="header">
+            <img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="company logo">
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#features">Features</a></li>
+                    <li id="how-it-works"><a class="nav-link" href="#how-works">How it works</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="features">
+            <h1 class="centered-text">Handcrafted, Home-made Masterpieces</h1>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input id="email" type="email" placeholder="Enter your email here." name="email">
+                <input id="submit" type="submit" value="GET STARTED">
+            </form>
+            <!--    FEATURES (3-FLEX-BOXES)    -->
+            <div class="intro-box">
+                <div class="intro-child-box">
+                    <div class="gicon">
+                        <span class="material-icons md-60">local_fire_department</span>
+                        <h1>Premium Materials</h1>
+                    </div>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div>
+
+                <div class="intro-child-box">
+                    <div class="gicon">
+                        <span class="material-icons md-48">local_shipping</span>
+                        <h1>Fast Shipping</h1>
+                    </div>
+                    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                </div>
+
+                <div class="intro-child-box">
+                    <div class="gicon">
+                        <span class="material-icons">thumb_up_alt</span>
+                        <h1>Quality Assurance</h1>
+                    </div>
+                    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                </div>
+            </div>
+            <!-- ------------------------------ -->
+        </section>
+        
+        <section id="how-works">
+
+            <iframe id="video" width="450" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0" allowfullscreen></iframe>
+        </section>
+        
+        <section id="pricing">
+            <div id="tenor-price">
+                <h1>TENOR TROMBONE</h1>
+                <label>$600</label>
+                <ul>
+                    <li>feature one</li>
+                    <li>feature two</li>
+                    <li>feature three</li>
+                    <li>feature four</li>
+                </ul>
+                <button>SELECT</button>
+            </div>
+            <div id="bass-price">
+                <h1>BASS TROMBONE</h1>
+                <label>$900</label>
+                <ul>
+                    <li>feature one</li>
+                    <li>feature two</li>
+                    <li>feature three</li>
+                    <li>feature four</li>
+                </ul>
+                <button>SELECT</button>
+            </div>
+            <div id="valve-price">
+                <h1>VALVE TROMBONE</h1>
+                <label>$1200</label>
+                <ul>
+                    <li>feature one</li>
+                    <li>feature two</li>
+                    <li>feature three</li>
+                    <li>feature four</li>
+                </ul>
+                <button>SELECT</button>
+            </div>
+        </section>
+        
+        <footer>
+            <p><strong>Please Note That: </strong>Informations contained within this web page are fake and designed for educational purposes only.</p>
+        </footer>
+    </body>
+</html>
