@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="CSS/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <h1 id="title">Sample Survey Form</h1>
+        <p id="description">Thank you for taking time to help us improve the platform</p>
+        <form id="survey-form">
+        <!--Name-->
+        <label for="#name" id="name-label">Name</label><br>
+        <input type="text" id="name" placeholder="Enter your name" required><br><br>
+        <!--Email-->
+        <label for="#email" id="email-label">Email</label><br>
+        <input type="email" id="email" placeholder="Enter your email" required><br><br>
+        <!--Number-->
+        <label for="#number" id="number-label">Number of attempts</label><br>
+        <input type="number" id="number" min="0" max="9" placeholder="Select"><br><br>
+        <!--Dropdown-->
+        <label for="#dropdown">Role:</label><br>
+        <select id="dropdown">
+            <option value="student">student</option>
+            <option value="full time job">front-end</option>
+            <option value="full time learner">back-end</option>
+            <option value="other">full-stack</option>
+        </select><br><br>
+        <!--Radio buttons-->
+        <label>Gender:</label>
+        <label for="#gender"><input type="radio" id="gender" name="gender" value="male">Male</label>
+        <label for="gender"><input type="radio" id="gender" name="gender" value="female">Female</label><br><br>
+        <!--Checkboxes-->
+        <label>Languages: </label><br>
+        <label for="#html"><input type="checkbox" id="html" value="html" name="languages">HTML</label><br>
+        <label for="#css"><input type="checkbox" id="css" value="css" name="languages">CSS</label><br>
+        <label for="#javascript"><input type="checkbox" id="javascript" value="javascript" name="languages">JavaScript</label><br>
+        <label for="#python"><input type="checkbox" id="python" value="python" name="languages">Python</label><br><br>
+        <!--Text area-->
+        <textarea id="comments" placeholder="Enter your comment here."></textarea><br>
+        <!--Submit button-->
+        <button type="submit" id="submit">Submit</button>
+        </form>
+    </body>
+</html>
